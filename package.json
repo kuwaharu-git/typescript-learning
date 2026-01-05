@@ -1,0 +1,19 @@
+{
+  "name": "typescript-hands-on",
+  "version": "1.0.0",
+  "description": "TypeScriptの基礎を学べるハンズオンプロジェクト",
+  "scripts": {
+    "lesson1": "ts-node src/01-basic-types/index.ts",
+    "lesson2": "ts-node src/02-functions/index.ts",
+    "lesson3": "ts-node src/03-interfaces/index.ts",
+    "lesson4": "ts-node src/04-classes/index.ts",
+    "lesson5": "ts-node src/05-generics/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
